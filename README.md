@@ -1,0 +1,2 @@
+# SidurnarMinar
+Síður Vefþróun Tækniskólinn

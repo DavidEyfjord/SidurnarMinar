@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="allirstyles.css">
+    <header class="menu">   
+        <div class="menu-wrap">
+            <img src="Valorant.Masters.Logo.png" class="logo-img" alt="Logo">
+            <input type="checkbox" id="checkbox">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <label for="checkbox">
+                <i class="fa fa-bars menu-icon"></i>
+            </label>
+        </div>
+    </header>
+</head>
+<body>
+    <section>
+        <div class="outPop">
+            <h1 class="popUpWord">VALORANT Masters Reykjavík</h1>
+        </div>
+    </section>
+    <div class="texti">
+        <h2>VALORANT er FPS( First Person Shooter) Leikur sem var búinn til af Riot games og gefinn út 2020. VALORANT Masters er leikjaviðburður þar sem 10 lið koma saman, úr öllum heimsálfum  til að keppa um bikarinn. Vinningar eru margar milljónir og atburðurinn tekur stað í Laugardalshöll, Reykjavík. Viðburðurinn stendur frá 24-30 Maí 2021. Því miður verða engir áhorfendur vegna COVID-19.</h2>
+        <img src="masters mynd.jpg">
+    </div>
+    <table>
+        <caption>Stigatafla</caption>
+        <thead>
+          <tr>
+            <th scope="col">Sæti</th>
+            <th scope="col">Lið</th>
+            <th scope="col">Vinningur</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Leið">1.</td>
+            <td data-label="Staðsetning">Sentinels</td>
+            <td data-label="Tími">$200,000</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="Leið">2.</td>
+            <td data-label="Staðsetning">Fnatic</td>
+            <td data-label="Tími">$100,000</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="Leið">3.</td>
+            <td data-label="Staðsetning">NUTURN</td>
+            <td data-label="Tími">$80,000</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <div class="fcf-body">
+
+        <div id="fcf-form">
+        <h3 class="fcf-h3">Sækja um miða</h3>
+        <form id="fcf-form-id" class="fcf-form-class">
+            
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Nafn:</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Netfang:</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            </div>
+            <div class="fcf-form-group">
+              <label for="phone" class="fcf-label">Símanúmer:</label>
+              <div class="fcf-input-group">
+                  <input type="number" id="phone" name="phone" class="fcf-form-control" required>
+              </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Athugasemd:</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Senda</button>
+            </div>
+          </div>
+            </form>
+</body>
+</html>
